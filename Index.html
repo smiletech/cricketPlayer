@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cricket-team">
+        <h1>Cricket Team Maker</h1>
+        <input type="text" id="Name" placeholder='Enter Player Name:-'/>
+        <br/>
+        <input type='number'id="Age" placeholder='Age' ></input>
+        <br/>
+        <label for="cricket">Player Type</label>
+        <br/>
+          <select name="cricket" id="cricketplayer" multiple>
+             <option value="Batsman">Batsman</option>
+             <option value="Bolwer">Bolwer</option>
+          </select>
+          <div>
+              <button id="AddPlayer" onClick=PlayerHander()>Add Player</button>
+              <!-- <button id="st" onClick=Start1()>StartTable</button> -->
+            </div>
+         </div>
+
+         <div id="Tb">
+             
+         </div>
+
+
+
+    <script src="index.js" ></script>
+</body>
+</html>
